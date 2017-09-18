@@ -10,9 +10,11 @@ import UIKit
 // creates an array named magicSpells that stores String values
 var magicSpells: [String] = ["Fire",  "Water", "Lightning", "Ice", "Earth", "Wind", "Light"]
 
+// Boolean isEmpty property checks if the array is empty
 if magicSpells.isEmpty {
     print("You have no magic spells.")
-} else {
+}
+else {
     print("You have magic spells.")
 }
 
