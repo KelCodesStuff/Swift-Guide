@@ -1,4 +1,7 @@
-//: Playground - noun: a place where people can play
+// last checked with Xcode 9.0 GM
+#if swift(>=4.0)
+print("Hello, Swift 4!")
+#endif
 
 import UIKit
 
@@ -8,4 +11,4 @@ print(dictionary["iphone"]!)
 
 print(dictionary.count)
 
-dictionary.append[
+//dictionary.append[ ]
