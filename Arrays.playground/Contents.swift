@@ -7,11 +7,17 @@ import UIKit
 
 // Arrays //
 
-// create array named magicSpells
-var magicSpells = ["Fire",  "Water", "Lightning", "Ice", "Earth", "Wind", "Light"]
+// creates an array named magicSpells that stores String values
+var magicSpells: [String] = ["Fire",  "Water", "Lightning", "Ice", "Earth", "Wind", "Light"]
 
-// counts the number of elements in the array which is 7
-print(magicSpells.count)
+if magicSpells.isEmpty {
+    print("You have no magic spells.")
+} else {
+    print("You have magic spells.")
+}
+
+// displays the number of magic spells you have
+print("Your currently have \(magicSpells.count) magic spells")
 
 // displays the 3rd element in the array which is Ice
 print(magicSpells[3])
@@ -20,25 +26,31 @@ print(magicSpells[3])
 magicSpells.append("Dark")
 
 // counts the number of elements in the array after Dark is added which is 8
-print(magicSpells.count)
-
-// removes the 6th element in the array which is Light
-magicSpells.remove(at:6)
+print("Your currently have \(magicSpells.count) magic spells")
 
 // removes the 1st element in the array which is Fire
 magicSpells.removeFirst()
 
-// counts the number of elements in the array after Light and Fire are removed, array is now 8
-print(magicSpells.count)
+// removes the 5th element in the array which is Light
+magicSpells.remove(at:5)
 
-// adds Teleport to the end of the array
-magicSpells.append("Teleport")
+// removes the last element in the array which is Dark
+magicSpells.removeLast()
 
-// adds Invisible to the end of the array
-magicSpells.append("Invisible")
+// counts the number of elements in the array after Fire, Light, and Dark were removed, array is now 5
+print("Your currently have \(magicSpells.count) magic spells")
+
+// adds Teleport, Invisible, Mind Control, and Strength to the end of the array
+magicSpells += ["Teleport", "Invisible", "Mind Control", "Strength"]
+
+// inserts Divine Strike as the first element
+magicSpells.insert("Divine Strike", at: 0)
 
 // counts the number of elements in the array after Teleport and  is added which is 8
-print(magicSpells.count)
+print("Your currently have \(magicSpells.count) magic spells")
 
-// sorts the array in alphabetical order
+// lists all magic spells
+print(magicSpells)
+
+// sorts the magic spells in alphabetical order
 magicSpells.sort()
