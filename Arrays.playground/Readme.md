@@ -1,3 +1,5 @@
 # Arrays
 
-Arrays are one form of collection type in Swift that are used for storing an ordered collection of values.
+Arrays in Swift are one of the primary collection types for storing a collection of values. 
+
+Arrays are ordered collections of values.
