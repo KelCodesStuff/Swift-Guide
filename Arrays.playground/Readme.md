@@ -2,4 +2,4 @@
 
 Arrays in Swift are one of the primary collection types for storing a collection of values. 
 
-Arrays are ordered collections of values.
+An array stores values of the same type in an ordered list.
