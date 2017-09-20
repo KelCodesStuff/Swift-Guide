@@ -1,4 +1,4 @@
-# Swift Playgrounds
-These are basic programming concepts in the Swift language.
+# Swift Guide
+These are programming concepts that every Swift developer should understand.
 
-I will try to keep these updated with the newest verision of Swift.
+I will continue to add new Playgrounds and keep these updated with the newest versions of Swift every year.
