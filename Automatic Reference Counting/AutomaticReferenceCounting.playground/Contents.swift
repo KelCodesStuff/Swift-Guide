@@ -1,11 +1,8 @@
-// last checked with Xcode 9.0 GM
-#if swift(>=4.0)
-print("Hello, Swift 4!")
-#endif
-
-// Automatic Reference Counting
+//: Playground - noun: a place where people can play
 
 import UIKit
+
+// Automatic Reference Counting
 
 // creates Car class
 class Car {

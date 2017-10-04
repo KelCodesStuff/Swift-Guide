@@ -1,11 +1,8 @@
-// last checked with Xcode 9.0 GM
-#if swift(>=4.0)
-print("Hello, Swift 4!")
-#endif
+//: Playground - noun: a place where people can play
 
 import UIKit
 
-// Arrays //
+// Arrays
 
 // creates an array named magicSpells that stores String values
 var magicSpells: [String] = ["Fire",  "Water", "Lightning", "Ice", "Earth", "Wind", "Light"]
