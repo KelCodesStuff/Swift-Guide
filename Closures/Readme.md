@@ -40,10 +40,3 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 let filteredNumbers = numbers.filter(filter)
 
 ```
-The closure expression doesn't need to be stored in a constant so the above code can be rewritten as
-```swift
-
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-let filteredNumbers = numbers.filter({ (number: Int) -> Bool in return (number % 2) == 0 })
-
-```
