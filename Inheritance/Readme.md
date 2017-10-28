@@ -20,6 +20,8 @@ class Aircraft {
     }
 }
 
+```
+
 You create a new instance of Aircraft which is written as a type name followed by empty parentheses:
 
 ```swift
