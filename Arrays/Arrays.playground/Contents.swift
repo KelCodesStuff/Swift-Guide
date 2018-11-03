@@ -46,10 +46,30 @@ magicSpells += ["Teleport", "Invisible", "Mind Control", "Strength"]
 magicSpells.insert("Divine Strike", at: 0)
 
 // counts the number of elements in the array after Teleport and  is added which is 8
-print("Your currently have \(magicSpells.count) magic spells")
+print("Your currently have \(magicSpells.count) magic spells\n")
 
 // lists all magic spells
 print(magicSpells)
 
 // sorts the magic spells in alphabetical order
 magicSpells.sort()
+print(magicSpells)
+
+// join array of strings into single string
+let mergedString = magicSpells.joined(separator: ", ")
+print(mergedString)
+
+// check if array contains a specific element
+if magicSpells.contains("Dark") {
+    
+    print("\nI'm going to use a Dark spell")
+}
+else {
+    print("I need to learn the Dark spell")
+}
+
+// enumerate items in an array
+for (index, item) in magicSpells.enumerated() {
+    print("\nThe game \(item) is at position \(index)")
+}
+
