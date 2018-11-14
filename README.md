@@ -10,7 +10,7 @@ Learning how fast an algorithm is and how much memory it needs is always necessa
 
 Big-O notation gives you a rough indication of the running time of an algorithm and the amount of memory it uses. When someone says, 
 
-For example, an algorithm with a running time of **O(n^2)** and uses **O(n)** space, means it's somewhat slow but it doesn't need a lot of extra memory.
+For example, an algorithm with a running time of **O(n^2)** and uses **O(n)** memory, means it's somewhat slow but it doesn't need a lot of extra memory.
 
 Figuring out the Big-O of an algorithm is usually done through mathematical analysis. Here's a table. **n** refers to the number of data items being processed. For example, when sorting an array of 100 items, **n = 100**.
 
