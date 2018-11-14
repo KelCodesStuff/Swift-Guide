@@ -6,11 +6,13 @@ I will continue to add new Playgrounds and keep these updated with the newest ve
 ## Big-O notation
 I believe that when learning any programming language it's also important to learn about Big-O notation and how it relates to the current language.
 
-It's useful to know how fast an algorithm is and how much space it needs. This allows you to pick the right algorithm for the job.
+Learning how fast an algorithm is and how much memory it needs is always necessary in order to pick the right algorithm for the job.
 
-Big-O notation gives you a rough indication of the running time of an algorithm and the amount of memory it uses. When someone says, "This algorithm has worst-case running time of **O(n^2)** and uses **O(n)** space," they mean it's kinda slow but doesn't need lots of extra memory.
+Big-O notation gives you a rough indication of the running time of an algorithm and the amount of memory it uses. When someone says, 
 
-Figuring out the Big-O of an algorithm is usually done through mathematical analysis. We're skipping the math here, but it's useful to know what the different values mean, so here's a handy table. **n** refers to the number of data items that you're processing. For example, when sorting an array of 100 items, **n = 100**.
+For example, an algorithm with a running time of **O(n^2)** and uses **O(n)** space, means it's somewhat slow but it doesn't need a lot of extra memory.
+
+Figuring out the Big-O of an algorithm is usually done through mathematical analysis. Here's a table. **n** refers to the number of data items being processed. For example, when sorting an array of 100 items, **n = 100**.
 
 Big-O | Name | Description
 ------| ---- | -----------
