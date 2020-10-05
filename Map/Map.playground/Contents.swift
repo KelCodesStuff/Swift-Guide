@@ -22,7 +22,7 @@ mapView.setRegion(mapRegion, animated: true)
 // Create a map annotation
 let annotation = MKPointAnnotation()
 annotation.coordinate = appleParkWayCoordinates
-annotation.title = "Apple Inc."
+annotation.title = "Kel Inc."
 annotation.subtitle = "One Apple Park Way, Cupertino, California."
 
 mapView.addAnnotation(annotation)
