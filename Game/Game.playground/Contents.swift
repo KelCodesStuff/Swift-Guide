@@ -9,6 +9,7 @@ class GameScene: SKScene {
     private var spinnyNode : SKShapeNode!
     
     override func didMove(to view: SKView) {
+        
         // Get label node from scene and store it for use later
         label = childNode(withName: "//helloLabel") as? SKLabelNode
         label.alpha = 0.0
@@ -30,6 +31,7 @@ class GameScene: SKScene {
     }
     
     @objc static override var supportsSecureCoding: Bool {
+        
         // SKNode conforms to NSSecureCoding, so any subclass going
         // through the decoding process must support secure coding
         get {
